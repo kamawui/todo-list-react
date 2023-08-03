@@ -3,9 +3,9 @@ import {Component} from "react";
 
 function AppFilter(props){
     const buttons = [
-        {title:'Всі співробітники', tag:''},
-        {title:'На підвищення', tag:'rise'},
-        {title:'ЗП більше 1000', tag:'moreThan1000'},
+        {title:'All employees', tag:''},
+        {title:'For promotion', tag:'rise'},
+        {title:'Salary more than 1000', tag:'moreThan1000'},
     ];
     const elements = buttons.map((el)=>{
         const active = props.filter === el.tag;

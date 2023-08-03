@@ -5,24 +5,14 @@ import {Component} from "react";
 class EmployersListItem extends Component {
     constructor(props) {
         super(props);
-        // this.state = {
-        //     increase: false,
-        //     rise: false
-        // }
     }
 
     onIncrease = (fun, id) => {
         fun(id);
-        // this.setState(({increase}) => ({
-        //     increase: !increase
-        // }))
     }
 
     onRise = (fun, id) => {
         fun(id);
-        // this.setState(({rise}) => ({
-        //     rise: !rise
-        // }))
     }
 
     render() {

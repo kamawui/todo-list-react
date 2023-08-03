@@ -45,16 +45,16 @@ class EmployersAddForm extends Component {
                     onSubmit={this.onSubmit}>
                     <input type="text"
                            className="form-control new-post-label"
-                           placeholder="Як його звати?"
+                           placeholder="What is his name?"
                            onChange={this.onValueChange}
                            name="name"/>
                     <input type="number"
                            className="form-control new-post-label"
-                           placeholder="З/П в $?"
+                           placeholder="Salary in $?"
                            onChange={this.onValueChange}
                            name="salary"/>
                     <button type="submit"
-                            className="btn btn-outline-light">Додати</button>
+                            className="btn btn-outline-light">Add</button>
                 </form>
             </div>
         )
