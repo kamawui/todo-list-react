@@ -21,7 +21,7 @@ class EmployersListItem extends Component {
         return (
             <li className={`list-group-item d-flex justify-content-between ${increase ? "increase" : ""} ${rise ? "like" : ""}`}>
                 <span onClick={() => this.onIncrease(updateIncrease, id)} className="list-group-item-label"  data-toggle='rise'>{name}</span>
-                <input type="text" className="list-group-item-input" value={salary} defaultValue={salary}/>
+                <input type="text" className="list-group-item-input" disabled="disabled" value={salary} defaultValue={salary}/>
                 <div className='d-flex justify-content-center align-items-center'>
                     <button onClick={() => this.onRise(updateRise, id)} type="button"
                             className="btn-cookie btn-sm "

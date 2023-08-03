@@ -6,3 +6,8 @@
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.15);
     color: #fff;
 }
+@media (max-width: 440px) {
+    .search-panel {
+        border-radius: 0px;
+    }
+}

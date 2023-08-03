@@ -62,3 +62,17 @@
 .list-group-item.increase .btn-star {
     color: #aeaeae;
 }
+
+.list-group-item-input {
+    outline: none;
+
+}
+
+@media (max-width: 440px) {
+    .list-group-item span {
+        min-width: 100px;
+    }
+    .list-group-item-input {
+        min-width: 130px;
+    }
+}
